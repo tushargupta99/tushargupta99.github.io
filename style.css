@@ -1,31 +1,60 @@
-body {
+body{
 	margin: 0px;
 }
 .main{
-	
-	height: 1080px;
-	background-image: url("images/home_page_background_image.jpg");
+	height:1080px;
+	background-image: url("images/portfolio-background.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size:cover;
-
 }
 
+#container{
+	height: 1080px;
+	margin-left: 42px;
+}
 
 
 .header{
-	height: 70px;
+	margin-top: 0px;
+	width: 100%;
 }
 .logo{
-	margin: 16px;
-
+	margin-top: 16px;
+	float: left;
 }
 .navigate{
+	margin-top: 24px;
+	margin-right: 16px;
 	float: right;
-	margin-right: 34px;
-	margin-top:16px;
 }
 .navbar{
-	color: #fff;
+	color:#fff;
 	margin-left: 10px;
+	font-size: 24px;
+	text-decoration: none;
+}
+.navbar:hover{
+	text-decoration: underline;
+	 text-shadow: 2px 2px 5px black;
+}
+
+.span{
+	width: 100%;
+
+}
+h1{
+	font-size: 100px;
+	padding-top: 400px;
+	text-align:center;
+	color: #fff;
+	clear: both;	
+}
+h2{
+	font-size: 30px;
+	text-align:center;
+	color: #fff;
+	clear: both;
+	
+	
 }
