@@ -1,0 +1,31 @@
+body {
+	margin: 0px;
+}
+/*.main{
+	
+	height: 1080px;
+	background-image: url("images/home_page_background_image.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}*/
+
+
+
+.header{
+	height: 70px;
+}
+.logo{
+	margin: 16px;
+
+}
+.navigate{
+	float: right;
+	margin-right: 34px;
+	margin-top:16px;
+}
+.navbar{
+	color: #fff;
+	margin-left: 10px;
+}
