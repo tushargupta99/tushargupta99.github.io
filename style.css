@@ -1,60 +1,176 @@
-body{
-	margin: 0px;
+:root {
+    font-size: 16px; 
+    
 }
-.main{
-	height:1080px;
-	background-image: url("images/portfolio-background.jpg");
+body{
+    font-style:sans-serif;
+    margin: 0px;
+}
+
+#main{
+	background-height:800px;
+	background-image: url("images/intro-background.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size:cover;
 }
 
-#container{
-	height: 1080px;
-	margin-left: 42px;
-}
-
-
-.header{
+#header_section{
 	margin-top: 0px;
 	width: 100%;
+	height: 90px;
 }
+
 .logo{
-	margin-top: 16px;
+	padding-top: 32px;
+	padding-left: 32px;
 	float: left;
 }
-.navigate{
-	margin-top: 24px;
-	margin-right: 16px;
+
+.navbar{
+	padding-top: 48px;
+	padding-right: 48px;
 	float: right;
 }
-.navbar{
+
+.navbar_item{
 	color:#fff;
 	margin-left: 10px;
 	font-size: 24px;
 	text-decoration: none;
 }
-.navbar:hover{
+.navbar_item:visited{
+	color:##E14141;
+	
+}
+
+.navbar_item:hover{
 	text-decoration: underline;
-	 text-shadow: 2px 2px 5px black;
+	text-shadow: 2px 2px 5px black;
 }
 
-.span{
-	width: 100%;
-
-}
 h1{
-	font-size: 100px;
-	padding-top: 400px;
+	font-size: 8rem;
+	font-style:sans-serif;
+	margin-top: 400px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
 	text-align:center;
+	border: none;
 	color: #fff;
 	clear: both;	
 }
 h2{
-	font-size: 30px;
+	font-size:2.5rem;
+	font-style:sans-serif;
+	margin-top: 0px;
 	text-align:center;
 	color: #fff;
+	margin: 0px;
 	clear: both;
-	
-	
+}
+
+h3{
+	font-size: 1.5rem;
+	font-style:sans-serif;
+	text-align:center;
+	color: #fff;
+	margin-top: 10px;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+#aboutme_section{
+	height: 800px;
+	background-image: url("images/aboutme_background.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.my_image{
+	height: 200px;
+	width: 200px;
+	padding-top: 64px;
+	padding-left: 600px;
+	padding-right: 600px;
+	background-attachment: fixed;
+	background-size:cover;
+}
+.spl_text{
+	font-style:italic;
+}
+
+.aboutme_description{
+	font-size: 1.6rem;
+	font-family: Habibi;
+	color: white;
+	padding:16px 100px 16px 100px ;
+}
+
+.description_heading{
+	font-size: 4rem;
+	font-style:serif;
+	padding-top:64px;
+    margin-top: 150px;
+	text-align:center;
+	border: none;
+	color: #fff;
+}
+
+#interests_section{
+	height: 800px;
+	background-image: url("images/interests_background.jpg");
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.interests_description{
+	padding-left: 40px; 
+	height: 300px;
+	width: 300px;
+}
+
+#experience_section{
+	height: 800px;
+	background-image: url("images/experience_background.jpg");
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+.experience_description {
+	font-size:1.6rem;
+	padding:16px 100px 16px 100px;
+	font-family: Habibi;
+	color: white;
+}
+
+#projects_section{
+	height: 1080px;
+	background-image: url("images/portfolio_background.jpg");
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.projects_description{
+	font-size:1.6rem;
+	padding:16px 100px 16px 100px;
+	font-family: Habibi;
+	color: white;
+}
+
+#contact_section{
+	height: 800px;
+	background-image: url("images/contact_background.jpg");
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
 }
