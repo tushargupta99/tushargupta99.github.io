@@ -168,8 +168,7 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	height: 4.5vh;
-	padding-bottom: 10vh;
+	padding-bottom: 2vh;
 
 }
  .contact_details_container .icon-group .icon{
