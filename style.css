@@ -1,17 +1,13 @@
 :root {
-    font-size: 17px;
+    font-size: 19px;
 }
+
 body{
-    font-style:sans-serif;
     margin: 0px;
 }
+
 #main{
-	background-height:800vh;
-	background-image: url("images/intro-background.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size:cover;
+	background: url("images/intro-background.jpg") no-repeat fixed center;
 }
 
 #header_section{
@@ -20,17 +16,14 @@ body{
 }
 
 .logo{
-	padding-top: 4vh;
-	padding-left: 2vw;
-	float: left;
+	padding: 3vh 0vw 0vh 4vw;
 }
 
 .navbar{
-	padding-top: 4vh;
-	padding-right: 4vw;
+	padding: 4vh 4vw 0vh 0vw;
 	float: right;
-}
 
+}
 .navbar_item{
 	color:#fff;
 	margin-left: 2vh;
@@ -47,7 +40,7 @@ body{
 }
 
 h1{
-	font-size: 8rem;
+	font-size: 7rem;
 	font-style:sans-serif;
 	margin-top: 50vh;
 	margin-bottom: 4vh;
@@ -75,30 +68,31 @@ h3{
     clear: both;
 }
 
-#aboutme_section{
-	height: 100vh;
-	background-image: url("images/aboutme_background.png");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size:cover;
+.description_heading{
+	font-size: 4rem;
+	margin: 3vh 2vw;
+	color: #fff;
+}
 
+.background_properties{
 	display: flex;
 	flex-wrap: wrap;
-	height: 100%;
+	justify-content: center;
+}
+
+#aboutme_section{
+	background: url("images/aboutme_background.png") no-repeat fixed center;
+	background-size:cover;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 
 }
 
 .my_image{
-	height: 200px;
-	width: 200px;
-	padding-top: 64px;
-	padding-left: 600px;
-	padding-right: 600px;
-	background-attachment: fixed;
-	background-size:cover;
-
+	height: 250px;
+	width: 250px;
+	
 }
 .spl_text{
 	font-style:italic;
@@ -106,110 +100,96 @@ h3{
 
 .aboutme_description{
 	font-size: 1.6rem;
+	padding:2vh 8vw;
 	font-family: Habibi;
 	color: white;
-	padding:4vh 10vw 8vh 10vw ;
-}
-
-.description_heading{
-	font-size: 4rem;
-	 margin-top: 5vh;
-	 color: #fff;
 }
 
 #interests_section{
-	background-image: url("images/interests_background.jpg");
-	background-size:cover;
-	height: 100%;
-	justify-content: center;
-	margin-top: 25vh;
+    margin-top: 5vh;
 }
 
 .interests_description{
-	padding-left: 50px; 
-	padding-bottom: 50px;
-	height: 300px;
-	width: 300px; 	
+    padding:2vh 8vw 4vh;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.interests_description_item{
+	padding: 2vh 2vw;
+	height: 250px;
+	width: 250px;
 }
 
 #experience_section{
-	background-image: url("images/experience_background.jpg");
-  	background-size:cover;
-	display: flex;
-	flex-wrap: wrap;
-	height: 100%;
-	justify-content: center;
-	margin-top: 25vh;
-
+	background: url("images/experience_background.jpg") no-repeat fixed center;
+	background-size:cover;
+	margin-top: 10vh;
 }
-.experience_description {
+.experience_description{
 	font-size:1.6rem;
-	padding:2vh 8vw 2vh 8vw;
+	padding:2vh 8vw;
 	font-family: Habibi;
 	color: white;
 }
 
 #projects_section{
-	background-image: url("images/portfolio_background.jpg");
-	background-size:cover;
-	display: flex;
-	flex-wrap: wrap;
-	height: 100%;
-	justify-content: center;
-	margin-top: 25vh;
-
+	background: url("images/portfolio_background.jpg") no-repeat fixed center;
+    background-size:cover;
+    margin-top: 20vh;
 }
 
 .projects_description{
 	font-size:1.6rem;
-	padding:16px 100px 16px 100px;
+	padding:2vh 8vw;
 	font-family: Habibi;
 	color: white;
 }
 
 #contact_section{
-	background-image: url("images/contact_background.jpg");
-	background-size:cover;
-	height: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 25vh;
+	background: url("images/contact_background.jpg") no-repeat fixed center;
+    background-size:cover;
+	margin-top: 20vh;
 }
 
-
-.contact_description{
+.contact_details_container{
+	padding: 0vh 2vw;
+}
+.contact_details_container .contact_description{
 	font-size:1.2rem;
 	font-family: Habibi;
-	padding-top: 8vh;
-	padding-left: 30vw;
-	padding-right: 30vw;
+	padding: 8vh 31vw 0vh;
 	color: #979797;
 }
 
-.email_details{
+.contact_details_container .email_details{
 	font-size:1.5rem;
 	font-family: Habibi;
 	padding-top: 4vh;
-	padding-left: 38vw;
-	padding-right: 38vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	color: #606060;
 }
  
- .more_details{
+ .contact_details_container .more_details{
 	font-size:1.1rem;
 	font-family: Habibi;
-	padding: 14vh 41vw 2vh 43vw;
+	padding: 14vh 0vw 2vh;
 	color: #606060;
-}
-
- .icon-group{
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 44vw;
-	/*justify-content: center;*/
+	justify-content: center;
 }
- .icon{
+ 
+.contact_details_container .icon-group{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+ .contact_details_container .icon-group .icon{
 	width: 42px;
 	padding-left:3px;
 	padding-bottom:5vh;
@@ -217,8 +197,13 @@ h3{
 
 /*Media Queries*/
 
-@media only screen and (max-width: 480px){
-	root {
+/*@media only screen and (min-width: 480px) and (max-width: 768px){
+	:root {
     font-size: 14px;
 }
 }
+@media only screen and (max-width: 480px){
+	:root {
+    font-size: 11px;
+}
+}*/
