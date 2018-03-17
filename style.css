@@ -9,6 +9,7 @@ body{
 
 #main{
 	background: url("images/intro-background.jpg") no-repeat fixed center;
+    background-size: cover;
 }
 
 #header_section{
@@ -167,12 +168,14 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	height: 4.5vh;
+	padding-bottom: 10vh;
 
 }
  .contact_details_container .icon-group .icon{
+	height: 35px;
 	width: 42px;
-	padding-left: 3px;
-	padding-bottom: 5vh;
+	padding: 0vh 0vw;
 }
 
 /*Media Queries*/
@@ -210,7 +213,6 @@ body{
 }
     .navbar{
 	padding: 4vh 2vw 0vh 0vw;
-	float: right;
 }
 
     .my_image{
