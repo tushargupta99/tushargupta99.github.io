@@ -1,0 +1,21 @@
+:root{
+	font-size: 16px;
+	text-decoration:none;
+	background-color: #f7f7f7;
+}
+
+.nav{
+	background-color: #00bfa5;
+	font-size:1.8rem;
+}
+
+.mute_text{
+	background-color: #f7f7f7;
+	color:#00bfa5;
+	font-size: 1.2rem;
+}
+
+.card-body{
+	color:#00bfa5;
+	font-size: 1.2rem;
+}

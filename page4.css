@@ -1,0 +1,64 @@
+body{
+  font-size:16px;
+}
+
+.row .left_column .left_column_navbar{
+  margin: 1vh 0vw;
+}
+
+.profile-pic{
+  height:40px;
+  width:40px;
+  margin-top: 10px;
+  float: left;
+  padding-left: 2px;
+}
+
+.badge{
+  margin-left:10px;
+}
+
+.user-pic{
+  height:50px;
+  width:50px;
+  margin-right: 20px;
+  float: left;
+}
+
+.list-group-item{
+  padding-bottom: 0px;
+}
+
+.new_chat_icon{
+  height: 40px;
+  width: 40px;
+  margin-top: 2px;
+}
+
+.time{
+  text-align: right;
+  padding-top: 2vh;
+  padding-right: 3vw; 
+  font-size: 12px;
+}
+
+.picture{
+  width: 350px; 
+  height: 350px;
+  margin-top:16vh;
+}
+
+.right_col_text .display-4  {
+  margin-top: 5vh;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.right_col_text  p{
+  margin: 0vh 15vw;
+  text-align: center;
+}
+
+.right_column{
+  background-color: #F7F9FA;
+}

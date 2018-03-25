@@ -1,0 +1,58 @@
+body{
+	font-size:16px;
+}
+
+.row .left_column .left_column_navbar{
+	margin: 1vh 0vw;
+}
+
+.profile-pic{
+	height:40px;
+	width:40px;
+	margin-top: 10px;
+	float: left;
+	padding-left: 2px;
+}
+
+.user-pic{
+  height:50px;
+	width:50px;
+	margin-right: 20px;
+	float: left;
+}
+
+.list-group-item{
+	padding-bottom: 0px;
+}
+
+.new_chat_icon{
+	height: 40px;
+	width: 40px;
+	margin-top: 2px;
+}
+
+.time{
+  text-align: right;
+  padding-top: 2vh; 
+  font-size: 12px;
+}
+
+.picture{
+	width: 350px; 
+	height: 350px;
+}
+
+.right_column{
+	background-color: #F7F9FA
+}
+
+.right_column .right_column_navbar{
+	margin-top: 1vh;
+	padding-top: 1vh;
+}
+
+.right_column .right_column_wallpaper {
+	background-image: url(images/chat_wallpaper.jpg);
+  height:85vh;
+  padding:0px 0px;
+}
