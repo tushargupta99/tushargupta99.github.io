@@ -9,7 +9,7 @@ body{
 
 #main{
 	background: url("images/intro-background.jpg") no-repeat fixed center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #header_section{
@@ -70,6 +70,11 @@ body{
 	justify-content: center;
 }
 
+.cfts{
+	color:#fff;
+	text-decoration: none;
+}
+
 #aboutme_section{
 	background: url("images/aboutme_background.png") no-repeat fixed center;
 	background-size: cover;
@@ -113,7 +118,7 @@ body{
 #experience_section{
 	background: url("images/experience_background.jpg") no-repeat fixed center;
 	background-size: cover;
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 .experience_description{
 	font-size: 1.6rem;
@@ -142,7 +147,7 @@ body{
 }
 .contact_details_container .contact_description{
 	font-size: 1.2rem;
-	padding: 8vh 29vw 0vh;
+	padding: 8vh 28vw 0vh;
 	color: #979797;
 }
 
@@ -169,12 +174,12 @@ body{
 	flex-wrap: wrap;
 	justify-content: center;
 	padding-bottom: 2vh;
-
 }
+
  .contact_details_container .icon-group .icon{
-	height: 35px;
+	height: 40px;
 	width: 42px;
-	padding: 0vh 0vw;
+	padding: 0vh 1px;
 }
 
 /*Media Queries*/
@@ -235,4 +240,10 @@ body{
 	padding-top: 7vh;
 }
     
+}
+
+@media only screen and (max-width: 370px){
+	.navbar_item{
+	padding: 2vh 1vw 0vh 0vw;
+}
 }
